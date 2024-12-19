@@ -1,18 +1,17 @@
 {
-  "name": "server-handler-for-devs",
-  "version": "1.0.0",
+  "name": "exeggutor.dev",
+  "version": "0.0.0",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node --env-file .env ./src/index.js",
     "dev": "node --watch --env-file .env ./src/index.js"
-
   },
   "keywords": [],
-  "author": "",
+  "author": "gonza-fl",
   "license": "ISC",
-  "description": "",
+  "description": "Modulo que permite a los desarrolladores ejecutar comandos controlados en un servidor (recomendado en test) sin tener que acceder directamente",
   "dependencies": {
     "express": "^4.21.2",
     "sqlite3": "^5.1.7"
