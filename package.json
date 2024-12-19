@@ -11,7 +11,7 @@
   "keywords": [],
   "author": "gonza-fl",
   "license": "ISC",
-  "description": "Modulo que permite a los desarrolladores ejecutar comandos controlados en un servidor (recomendado en test) sin tener que acceder directamente",
+  "description": "Permite a los desarrolladores ejecutar comandos controlados en un servidor (recomendado en test) sin tener que acceder directamente a este",
   "dependencies": {
     "express": "^4.21.2",
     "sqlite3": "^5.1.7"
